@@ -1,0 +1,7 @@
+./pox.py openflow.of_01 --port=6655 pox.forwarding.l3_learning pox.forwarding.L3Firewall
+
+
+mn --custom proj3_topo.py --topo proj3topo --controller=remote,port=6655 --switch=ovsk mac
+
+
+
